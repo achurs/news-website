@@ -1,0 +1,34 @@
+.news-div {
+  margin-top: 2em;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 8px;
+  font: helvetica, sans-serif;
+  font-size: 1.5em;
+  font-weight: 1000;
+  margin-top: 20%;
+  color: aqua;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.news-div .news-link {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.2em;
+  margin: 10px 0;
+  padding-left: 10px;
+}
+.news-div .news-link:hover {
+  text-decoration: underline;
+}
+.news-item{
+  left: 0;
+}
+
+.no-msg {
+  text-align: center;
+  font-size: 1.5em;
+  color: #ffffff;
+  margin-top: 20px;
+}

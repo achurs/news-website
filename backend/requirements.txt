@@ -1,0 +1,4 @@
+flask-socketio
+flask-cors
+feedparser
+psycopg2-binary

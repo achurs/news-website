@@ -1,0 +1,45 @@
+.all-news-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    left: 0;
+    margin: 0px;
+    width: 100%;
+}
+
+.all-news-div a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.all-news-div a:hover {
+    text-decoration: underline;
+}
+.all-news-div h2 {
+    color: #ffffff;
+}
+
+
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    bottom: 0;
+}
+.pagination button {
+    background-color: #282c34;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    justify-content: space-between;
+
+}
+.pagination button:hover {
+    background-color: #3a3f47;
+}
+.pagination button.active {
+    background-color: #3a3f47;
+}
