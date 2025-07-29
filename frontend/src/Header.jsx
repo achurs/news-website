@@ -11,6 +11,9 @@ function Header(){
                     <li>
                         <Link to="/all">All News</Link>
                     </li>
+                    <li>
+                        <Link to="/chatbot">Chatbot</Link>
+                    </li>
                 </ul>
             </nav>
         </header>
